@@ -107,10 +107,7 @@ export default defineConfig({
       ]
     }
   },
-  experimental: {
-    svg: true,
-    contentIntellisense: true
-  },
+  // Removed outdated experimental features
   vite: {
     plugins: [
       //   visualizer({
